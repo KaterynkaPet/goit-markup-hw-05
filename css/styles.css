@@ -742,8 +742,8 @@ body {
 +.review-form-checkbox-label
 >.review-form-own-checkbox {
     fill: #F4F4FD;
-    background-color: #404BBF;
     border: none;
+    background-color: #404BBF;
 }
 .review-form-checkbox:focus
 +.review-form-checkbox-label
