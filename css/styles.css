@@ -650,9 +650,6 @@ body {
     width: 360px;
     margin-bottom: 16px;
  }
-.review-form-field-wrapper-name {
-    margin-bottom: 8px;
-}
 .review-form-field-label {
     display: block;
     font-size: 12px;
@@ -722,7 +719,7 @@ body {
     border-color: #4D5AE5;
 }
 .review-form-field-wrapper {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 .review-form-checkbox-wrapper {
     margin-bottom: 24px;
@@ -742,11 +739,11 @@ body {
 }
 
 .review-form-checkbox:checked
- +.review-form-checkbox-label
- >.review-form-own-checkbox {
-    border: none;
++.review-form-checkbox-label
+>.review-form-own-checkbox {
     fill: #F4F4FD;
     background-color: #404BBF;
+    border: none;
 }
 .review-form-checkbox:focus
 +.review-form-checkbox-label
