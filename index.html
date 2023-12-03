@@ -450,12 +450,13 @@
                height="18" 
                aria-label="icon email">
                 </svg>
-              <button class="subscribe-form-submit-btn" type="submit">Subscribe
+            </label>
+              <button class="subscribe-form-submit-btn" type="submit">
+                Subscribe
                 <svg class="subscribe-input-icon" width="24" height="24" aria-label="icon send">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
               </button>                  
-            </label>
           </form>          
         </div>
       </div>
@@ -464,7 +465,7 @@
     <!---------BACKDROP--------->
     <div class="backdrop is-open">
       <div class="modal">
-        <button class="modal-close-btn">
+        <button class="modal-close-btn" type="button">
           <svg 
           class="modal-close-btn-icon" 
           width="8" 
@@ -535,13 +536,12 @@
             </svg>
             </div>
           </div>
-          <div class="review-form-field-wrapper">
-            <label class="review-form-field-label">Comment</label>
+          <div class="review-form-field-wrapper-comment">
+            <label class="review-form-field-label" for="user-comment" >Comment</label>
             <textarea 
             class="review-form-comment" 
             name="user-comment" 
             id="user-comment"    
-            for="user-comment"          
             placeholder="Text input"
             required
             ></textarea>
